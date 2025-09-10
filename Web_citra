@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+    .photo {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .photo img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #555;
+    }
+    .biodata {
+      line-height: 1.8;
+    }
+    .biodata strong {
+      display: inline-block;
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Biodata Diri</h1>
+    <div class="photo">
+      <img src="https://via.placeholder.com/150" alt="Foto Profil">
+    </div>
+    <div class="biodata">
+      <p><strong>Nama:</strong> Citra Fikriah Jamal</p>
+      <p><strong>Tempat, Tanggal Lahir:</strong> Pucceda, 28 Desember 2004</p>
+      <p><strong>Alamat:</strong> Jalan Paccinag Raya II No. 35A, Makassar</p>
+      <p><strong>Email:</strong> citra.jamal.28@gmail.com</p>
+      <p><strong>Prodi:</strong> S1 Fisika, Universitas Hasanuddin</p>
+      <p><strong>Cita-cita:</strong> Fisikawan & Peneliti</p>
+    </div>
+  </div>
+</body>
+</html>
